@@ -39,7 +39,7 @@ import java.util.Base64;
  * @since 12-Mar-2008
  *
  */
-public class UsernameTokenCallback implements DigestCallback
+public class UsernameTokenCallback implements DigestCallback, org.jboss.crypto.digest.DigestCallback
 {
    static final String NONCE = "nonce";
 
